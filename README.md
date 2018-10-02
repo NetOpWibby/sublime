@@ -30,3 +30,12 @@ These three files should be placed in `~/Library/Application Support/Sublime Tex
 - `Package Control.sublime-settings`
 - `Preferences.sublime-settings`
 - `SublimeLinter.sublime-settings`
+
+Alternative method:
+
+- Navigate to `Preferences > Settings` and paste the contents of `Preferences.sublime-settings`.
+- Navigate to `Preferences > Package Settings > Package Control > Settings — User` and paste the contents of `Package Control.sublime-settings`.
+
+At this point, you will have to restart the app to get packages to install. Wait a couple seconds upon startup and tabs will appear, indicating packages were installed.
+
+At this point, you can update `SublimeLinter.sublime-settings` by navigating to `Preferences > Package Settings > SublimeLinter > Settings` with your Node version and path (`which node` in Terminal helps here).
