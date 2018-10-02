@@ -1,0 +1,10 @@
+// SublimeLinter Settings - User
+{
+  "linters": {
+    "eslint": {
+      "env": {
+        "PATH": "~/.nvm/versions/node/v10.6.0/bin/"
+      }
+    }
+  }
+}
