@@ -1,7 +1,7 @@
 # Sublime
 
 [![N](https://img.shields.io/badge/%F0%9F%91%8D%F0%9F%8F%BE-NetOperatorWibby/Sublime-07d0eb.svg?style=flat-square)](https://git.inc.sh/NetOperatorWibby/Sublime)
-> My Sublime Text setup
+> My [Sublime Text](https://www.sublimetext.com) setup
 
 
 
