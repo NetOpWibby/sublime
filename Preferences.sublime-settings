@@ -73,6 +73,8 @@
   "font_face": "Input Mono",
   "font_size": 14,
   "highlight_trailing_whitespace": true,
+  "highlight_trailing_whitespace_color": "#f2f793",
+  "highlight_trailing_whitespace_fill": true,
   "highlight_trailing_whitespace_non_cursor": false,
   "ignored_packages": [
     "ActionScript",
