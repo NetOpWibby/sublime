@@ -2,8 +2,11 @@
   "linters": {
     "eslint": {
       "env": {
-        "PATH": "~/.nvm/versions/node/v10.6.0/bin/"
+        "PATH": "~/.nvm/versions/node/v10.10.0/bin"
       }
     }
+  },
+  "paths": {
+    "osx": "~/.nvm/versions/node/v10.10.0/bin"
   }
 }
