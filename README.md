@@ -23,21 +23,11 @@ Input Mono is my coding typeface of choice. The version included in this repo is
 
 
 
-### ImageMagick
-
-_Sigh_. Yes, you really need to install ImageMagick for a package (Color Highlighter). Fortunately, it's super easy to install (on macOS)!
-
-```bash
-brew install imagemagick
-```
-
-
-
 ### Sublime Settings
 
 These files should be placed in `~/Library/Application Support/Sublime Text 3/Packages/User/` after Package Control is installed. Note that I am unsure if the settings files will get overwritten if done this way (the packages wouldn't be installed yet).
 
-- `ColorHighlighter.sublime-settings`
+- `Color Highlight.sublime-settings`
 - `Package Control.sublime-settings`
 - `Preferences.sublime-settings`
 - `SublimeLinter.sublime-settings`
@@ -52,8 +42,8 @@ Alternative method:
 At this point, you will have to restart the app to get packages to install. Wait a couple seconds upon startup and tabs will appear, indicating packages were installed.
 
 Now, you can update the other packages with their settings files!
-- `Preferences > Package Settings > Color Highlighter > Preferences — User`
-  - paste the contents of `ColorHighlighter.sublime-settings`
+- `Preferences > Package Settings > Color Highlight Settings`
+  - paste the contents of `Color Highlight.sublime-settings`
 - `Preferences > Package Settings > SublimeLinter > Settings`
   - find your Node path via `which node`
   - paste the contents of `SublimeLinter.sublime-settings`
