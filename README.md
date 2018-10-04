@@ -23,19 +23,37 @@ Input Mono is my coding typeface of choice. The version included in this repo is
 
 
 
+### ImageMagick
+
+_Sigh_. Yes, you really need to install ImageMagick for a package (Color Highlighter). Fortunately, it's super easy to install (on macOS)!
+
+```bash
+brew install imagemagick
+```
+
+
+
 ### Sublime Settings
 
-These three files should be placed in `~/Library/Application Support/Sublime Text 3/Packages/User/` after Package Control is installed.
+These files should be placed in `~/Library/Application Support/Sublime Text 3/Packages/User/` after Package Control is installed. Note that I am unsure if the settings files will get overwritten if done this way (the packages wouldn't be installed yet).
 
+- `ColorHighlighter.sublime-settings`
 - `Package Control.sublime-settings`
 - `Preferences.sublime-settings`
 - `SublimeLinter.sublime-settings`
 
 Alternative method:
 
-- Navigate to `Preferences > Settings` and paste the contents of `Preferences.sublime-settings`.
-- Navigate to `Preferences > Package Settings > Package Control > Settings — User` and paste the contents of `Package Control.sublime-settings`.
+- `Preferences > Settings`
+  - paste the contents of `Preferences.sublime-settings`.
+- `Preferences > Package Settings > Package Control > Settings — User`
+  - paste the contents of `Package Control.sublime-settings`
 
 At this point, you will have to restart the app to get packages to install. Wait a couple seconds upon startup and tabs will appear, indicating packages were installed.
 
-At this point, you can update `SublimeLinter.sublime-settings` by navigating to `Preferences > Package Settings > SublimeLinter > Settings` with your Node version and path (`which node` in Terminal helps here).
+Now, you can update the other packages with their settings files!
+- `Preferences > Package Settings > Color Highlighter > Preferences — User`
+  - paste the contents of `ColorHighlighter.sublime-settings`
+- `Preferences > Package Settings > SublimeLinter > Settings`
+  - find your Node path via `which node`
+  - paste the contents of `SublimeLinter.sublime-settings`
