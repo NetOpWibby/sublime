@@ -8,7 +8,7 @@
   "caret_extra_width": 8,
   "caret_style": "smooth",
   "close_windows_when_empty": false,
-  "color_scheme": "Packages/Color Scheme - Default/Sixteen.sublime-color-scheme",
+  "color_scheme": "Packages/ayu/ayu-light.tmTheme",
   "default_line_ending": "unix",
   "drag_text": false,
   "draw_white_space": "selection",
@@ -68,9 +68,13 @@
     ".svn",
     ".git",
     ".hg",
-    "CVS"
+    "/Users/netopwibby/Projects/**/**/node_modules"
   ],
-  "font_face": "Input Mono",
+  "font_face": "Operator Mono Light",
+  "font_options": [
+    "dlig",
+    "ss01"
+  ],
   "font_size": 14,
   "highlight_trailing_whitespace": true,
   "highlight_trailing_whitespace_color": "#f2f793",

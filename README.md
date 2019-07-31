@@ -1,6 +1,6 @@
 # Sublime
 
-[![N](https://img.shields.io/badge/%F0%9F%91%8D%F0%9F%8F%BE-NetOperatorWibby/Sublime-07d0eb.svg?style=flat-square)](https://git.inc.sh/NetOperatorWibby/Sublime)
+[![N](https://img.shields.io/badge/%F0%9F%91%8D%F0%9F%8F%BE-NetOperatorWibby/Sublime-07d0eb.svg?style=flat-square)](https://code.webb.page/NetOperatorWibby/Sublime)
 > My [Sublime Text](https://www.sublimetext.com) setup
 
 
@@ -19,7 +19,7 @@ Open ST's console by visiting `View > Show Console`.
 
 ### Typeface
 
-Input Mono is my coding typeface of choice. The version included in this repo is a customized. I forget the parameters I chose but you can [create your own here](http://input.fontbureau.com/preview). Slashed zero is best zero.
+Input Mono is one of my favorite typefaces to code in. The version included in this repo is customized. I forget the parameters I chose but you can [create your own here](http://input.fontbureau.com/preview). Slashed zero is best zero.
 
 
 
