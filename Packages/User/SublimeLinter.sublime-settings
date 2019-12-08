@@ -1,0 +1,12 @@
+{
+  "linters": {
+    "eslint": {
+      "env": {
+        "PATH": "~/.nvm/versions/node/v11.5.0/bin"
+      }
+    }
+  },
+  "paths": {
+    "osx": "~/.nvm/versions/node/v11.5.0/bin"
+  }
+}
